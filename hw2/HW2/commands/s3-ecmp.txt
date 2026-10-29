@@ -1,0 +1,3 @@
+table_add MyIngress.destination MyIngress.forward 10.0.2.2/32 => 2
+table_add MyIngress.destination MyIngress.forward 10.0.1.1/32 => 1
+table_add MyIngress.query_route MyIngress.answer_query 3 =>

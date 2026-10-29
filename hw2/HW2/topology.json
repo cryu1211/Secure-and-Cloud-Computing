@@ -1,0 +1,12 @@
+{
+  "hosts": {"h1": {"ip": "10.0.1.1", "mac": "00:00:00:00:01:01"}, "h2": {"ip": "10.0.2.2", "mac": "00:00:00:00:02:02"}},
+  "links": [
+    {"a": "h1", "b": "s1", "a_port": 1, "b_port": 1, "delay": "0ms"},
+    {"a": "s1", "b": "s2", "a_port": 2, "b_port": 1, "delay": "1ms"},
+    {"a": "s1", "b": "s3", "a_port": 3, "b_port": 1, "delay": "15ms"},
+    {"a": "s2", "b": "s4", "a_port": 2, "b_port": 1, "delay": "1ms"},
+    {"a": "s3", "b": "s4", "a_port": 2, "b_port": 2, "delay": "15ms"},
+    {"a": "s4", "b": "h2", "a_port": 3, "b_port": 1, "delay": "0ms"}
+  ],
+  "flowlet_gap_us": 100000
+}

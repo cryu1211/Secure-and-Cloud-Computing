@@ -1,0 +1,7 @@
+{
+  "python": "3.12.3",
+  "kernel": "7.0.0-30-generic",
+  "scapy": "2.5.0",
+  "p4c-bm2-ss": "p4c-bm2-ss\nVersion 1.2.5.16 (SHA: 55fe8f2775 BUILD: Release)",
+  "simple_switch": "1.15.5-8be95de0"
+}
